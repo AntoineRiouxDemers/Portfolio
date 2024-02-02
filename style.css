@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: solid 5px black;
+    display: flex;
+
+    align-items: center;
+}
+
+.container.left{
+    width: 40vw;
+    height: 50vh;
+    justify-content: start;
+}
+
+.container.right{
+    width: 25vw;
+    height: 50vh;
+    justify-content: center;
+}
+
+.person-infos{
+    border: solid 3px black; 
+}
